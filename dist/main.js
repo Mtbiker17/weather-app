@@ -1,1 +1,1 @@
-console.log("webpack (watch)");
+(()=>{"use strict";!async function(a){const t=await fetch("https://api.openweathermap.org/data/2.5/\n        weather?q={city}&appid={070c4da04e708cd5b0d3d0157e75a960}",{mode:"cors"});await t.json()}(),console.log(cityWeatherData),console.log("webpack (watch)")})();
