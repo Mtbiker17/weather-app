@@ -1,1 +1,1 @@
-(()=>{"use strict";!async function(){const a=await fetch("https://api.openweathermap.org/data/2.5/weather?q=London&appid=070c4da04e708cd5b0d3d0157e75a960",{mode:"cors"}),o=await a.json();console.log(o)}(),console.log("webpack (watch)")})();
+(()=>{"use strict";!async function(){const o=await fetch("https://api.openweathermap.org/data/2.5/weather?q=northampton,MA,US&appid=070c4da04e708cd5b0d3d0157e75a960",{mode:"cors"}),a=await o.json();console.log(a),console.log(a.weather[0].description)}(),console.log("webpack (watch)")})();
